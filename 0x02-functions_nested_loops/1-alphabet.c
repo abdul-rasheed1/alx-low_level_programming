@@ -12,5 +12,5 @@
 		{
 			_putchar(a);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
