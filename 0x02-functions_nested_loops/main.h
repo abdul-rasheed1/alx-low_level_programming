@@ -1,5 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-//function declaration
+/*function declaration*/
 int _putchar(char c);
 #endif
