@@ -12,6 +12,8 @@ void times_table(void)
 		{
 			p = n * i;
 			_putchar(p + '0');
+			_putchar(',');
+			_putchar(' ');
 			if (i == 9)
 			{
 				_putchar('\n');
