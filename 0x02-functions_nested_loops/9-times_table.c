@@ -6,9 +6,16 @@ void times_table(void)
 {
 	int n, i, p;
 
-	n = '9';
-	for (i = '0'; i <= '9'; i++)
+	for (n = 0; n <= 9; n++)
 	{
-		p = n * i;
-		_putchar(p);
-
+		for (i = 0; i <= 9; i++)
+		{
+			p = n * i;
+			_putchar(p + '0');
+			if (i == 9)
+			{
+				_putchar('\n');
+			}
+		}
+	}
+}
