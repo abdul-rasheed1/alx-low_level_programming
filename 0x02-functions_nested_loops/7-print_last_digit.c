@@ -9,12 +9,7 @@ int print_last_digit(int n)
 {
 	int last;
 
-	if (n == INT_MIN)
-	{
-		last = 8;
-	}
-
-	else if (n < 0)
+	 if (n < 0)
 	{
 		n = n * -1;
 	}
