@@ -20,5 +20,6 @@ void rev_string(char *s)
 		s[r] = s[i];
 		r++;
 	}
+	s[n] = '\0';
 }
 
