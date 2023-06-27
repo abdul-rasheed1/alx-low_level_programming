@@ -1,16 +1,16 @@
 #include "main.h"
 /**
 *puts2 - prnts string
-*@str - str to be prnted
+*@str:  string to be prnted
 *
 *return :nothing
 */
 void puts2(char *str)
 {
-	int n , i;
+	int n, i;
 
 	n = 0;
-	while (n != '\0')
+	while (str[n] != '\0')
 	{
 		n++;
 	}
