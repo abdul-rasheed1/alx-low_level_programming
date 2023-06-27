@@ -15,8 +15,10 @@ void rev_string(char *s)
 	{
 		n++;
 	}
-	for (i = n - 1; i >= (n - 1) / 2; i--)
+	for (i = n - 1; i >= 0; i--)
 	{
+		_putchar(r);
+		_putchar(i);
 		s[r] = s[i];
 		r++;
 	}
