@@ -15,7 +15,7 @@ void rev_string(char *s)
 	{
 		n++;
 	}
-	for (i = n - 1; i >= n / 2; i--)
+	for (i = n - 1; i > n / 2; i--)
 	{
 		_putchar(r + '0');
 		_putchar(i + '0');
