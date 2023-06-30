@@ -4,6 +4,7 @@
  * @dest : the destination string
  * @src : the source strng to be appended
  * @n: the specifed number of characters
+ * Return: the conacted string
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -19,6 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 		*p = *src;
 		p++;
 		src++;
+		n--;
 	}
 	*p = '\0';
 	return (dest);
