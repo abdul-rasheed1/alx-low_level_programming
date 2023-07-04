@@ -3,7 +3,7 @@
  * _memset - sets a memory area with a constant byte
  * @s: memory area to be set
  * @b: the byte constant
- * @n; the number of areas withing s
+ * @n:: the number of areas withing s
  *
  * Return: s
  */
