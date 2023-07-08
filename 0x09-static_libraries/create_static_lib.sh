@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/bah
 ar -rc liball.a *.o
 ranlib liball.a
