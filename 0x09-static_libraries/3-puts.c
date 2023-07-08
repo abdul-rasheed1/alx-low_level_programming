@@ -8,5 +8,9 @@
 
 void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	while (*str != '\0') 
+	{
+        putchar(*str);
+        str++;
+	}
 }
