@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _stdrup - duplicates the string str
+ * _strdup - duplicates the string str
  * @str: the string to be copied
  *
  * Return: a pointer to a chasr
