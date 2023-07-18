@@ -2,10 +2,10 @@
 /**
  * main -entry point
  *
- * Return :always 0 succes
+ * Return:always 0 success
  */
 int main(void)
 {
-	printf("%s\n",__FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
